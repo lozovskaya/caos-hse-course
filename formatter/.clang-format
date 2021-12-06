@@ -1,0 +1,43 @@
+---
+BasedOnStyle: Google
+AccessModifierOffset: '4'
+AlignAfterOpenBracket: Align
+AlignEscapedNewlines: Left
+AlignOperands: 'true'
+AllowAllArgumentsOnNextLine: 'true'
+AllowAllConstructorInitializersOnNextLine: 'true'
+AllowShortBlocksOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: true
+  AfterEnum: true
+  AfterControlStatement: Never
+  AfterFunction: true
+  AfterStruct: true
+  SplitEmptyFunction: false
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeWhile: false
+  SplitEmptyRecord: true
+  SplitEmptyFunction: true
+  IndentBraces: false
+
+
+
+ConstructorInitializerIndentWidth: '4'
+ContinuationIndentWidth: '4'
+ColumnLimit: '90'
+
+DerivePointerAlignment: 'false'
+PointerAlignment: Right
+SpaceAroundPointerQualifiers: Before
+BreakBeforeTernaryOperators: 'true'
+
+IndentWidth: '4'
+Language: Cpp
+SortIncludes: 'true'
+TabWidth: '4'
+UseTab: Never
+
